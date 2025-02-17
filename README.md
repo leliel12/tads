@@ -1,2 +1,1 @@
-# tads
-Técnicas Avanzadas de Diseño de Sotware
+# Técnicas Avanzadas de Diseño de Sotware (TADS)
