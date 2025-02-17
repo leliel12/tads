@@ -25,7 +25,7 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 
 Si van a van a validar el curso en otro programa doctoral que no sea del de FaMAF-UNC, van a necesitar:
 
-- [Programa de la materia](https://drive.google.com/file/d/1JLrDJTSMfL6HJ47lxg3HGjnRtR7g-qPm/view)
+- [Programa de la materia](https://drive.google.com/file/d/1JLrDJTSMfL6HJ47lxg3HGjnRtR7g-qPm/view) (Versión posgrado)
 - CV de los profesores: *Pedir, así les doy el mas actualizado*
 
 ## Recursos 🪨
