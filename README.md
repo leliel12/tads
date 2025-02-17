@@ -1,8 +1,7 @@
 # Técnicas Avanzadas de Diseño de Sotware (TADS) 🦖
 
-<div style="text-align: right;">
-<code>Versión. 2025</code>
-</div>
+`Versión. 2025`
+
 ----
 
 TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/559517) para la Licenciatura en Ciencias de la Computación y los doctorados en Computación, Física, Matemática y Astronomía en la [FAMAF-UNC](https://famaf.unc.edu.ar/).
