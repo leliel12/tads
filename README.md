@@ -1,4 +1,4 @@
-# Técnicas Avanzadas de Diseño de Sotware (TADS) 🦖
+# Técnicas Avanzadas de Diseño de Sotware (TADS) 🦆
 
 `Versión. 2025`
 
@@ -13,7 +13,7 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 ## Clases 🏫
 
 - **Clase 1**:
-    - [Sobre el cursado de la materia]
+    - [Sobre el cursado de la materia](clase0/intro.ipynb)
     - [COSAS que estoy armando para el curso]
     - [Revisando OOP]
 
