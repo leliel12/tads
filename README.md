@@ -57,4 +57,4 @@ Estos son los [editores o IDE](https://realpython.com/lessons/ides-vs-code-edito
 - [Diseño de Software de Cómputo Científico (La materia anterior)](https://github.com/leliel12/diseno_sci_sfw/tree/)
 
 
-![banner](banner.png)
+![banner](duck.png)
