@@ -13,9 +13,9 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 ## Clases 🏫
 
 - **Clase 1**:
-    - [Sobre el cursado de la materia](clase0/intro.ipynb)
-    - [Historia y algunos detalles](clase2/01_history.ipynb)
-    - [Software y el final del universo](clase0/02_entropy.ipynb)
+    - [Sobre el cursado de la materia](clase1/intro.ipynb)
+    - [Historia y algunos detalles](clase1/01_history.ipynb)
+    - [Software y el final del universo](clase1/02_entropy.ipynb)
 
 
 
