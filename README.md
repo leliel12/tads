@@ -18,7 +18,11 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
     - [Software y el final del universo](clase1/02_entropy.ipynb)
 
 
+## Run the slides
 
+- Entorno virtual en Python >= 3.10
+- `$ pip install -r requirements.txt`
+- `$ jupyter lab`
 
 
 ## Validar el curso en otra facultad/universidad: 🎓
