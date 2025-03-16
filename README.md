@@ -18,6 +18,10 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
     - [Software y el final del universo](clase1/02_entropy.ipynb)
 
 
+- **Clase 2**:
+    - [Paradigma orientado a objetos](clase2/01_oop.ipynb)
+    - [Modelo de objetos de Python + Composición de objetos](clase2/02_model.ipynb)
+
 ## Run the slides
 
 - Entorno virtual en Python >= 3.10

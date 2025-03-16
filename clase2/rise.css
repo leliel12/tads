@@ -9,13 +9,14 @@
 }
 
 .reveal-full-page .rise-enabled section img {
-    display: block;
+ display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    min-width: 50%;
-    max-width: 95%;
+    max-height: 95vh; /* 90% de la altura visible */
+    width: auto; /* Permite que el ancho se ajuste proporcionalmente */
+    object-fit: contain; /* Asegura que toda la imagen sea visible */
 }
 
 
