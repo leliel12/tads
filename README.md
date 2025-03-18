@@ -12,11 +12,14 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 
 ## Clases 🏫
 
+### Introducción
+
 - **Clase 1**:
     - [Sobre el cursado de la materia](clase01/intro.ipynb)
     - [Historia y algunos detalles](clase01/01_history.ipynb)
     - [Software y el final del universo](clase01/02_entropy.ipynb)
 
+### Objetos y otros paradigmas
 
 - **Clase 2**:
     - [Paradigma orientado a objetos](clase02/oop.ipynb)
@@ -24,6 +27,7 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 
 - **Clase 3**:
     - [Modelo de objetos de Python + Composición de objetos](clase03/omodel.ipynb)
+
 
 ## Run the slides
 
