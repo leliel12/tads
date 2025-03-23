@@ -89,3 +89,8 @@
     background-color: var(--jupyter-in-cell-bg) !important;
     max-height: none !important;
 }
+
+
+.jp-MarkdownOutput pre, .jp-MarkdownOutput code {
+    font-size: 30px !important;
+}
