@@ -13,6 +13,8 @@ def join_notebooks(directory=".", output_filename="out.ipynb"):
         print("No notebooks found in the directory.")
         return
 
+    notebooks.sort()
+
     final_notebook = nbformat.v4.new_notebook()
     for notebook_file in notebooks:
         with open(notebook_file, 'r') as f:
