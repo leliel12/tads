@@ -27,6 +27,12 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 
 - **Clase 3**:
     - [Modelo de objetos de Python + Composición de objetos](clase03/omodel.ipynb)
+    - [Alumnos] [Libro: "The Design of Design"](students/design_of_design/design_of_design.ipynb)
+
+- **Clase 4**:
+    - [Metaprogramación](clase04/meta.ipynb)
+    - :student: [Smalltalk](students/smalltalk/smalltalk.ipynb)
+    - :student: [Diseño e implementación de `Sh`](students/sh_design/sh.ipynb)
 
 
 ## Run the slides
