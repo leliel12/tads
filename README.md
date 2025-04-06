@@ -34,8 +34,8 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 - **Clase 5**:
     - [Structural Pattern Matching](clase05/structural_pattern_matching.ipynb)
     - [Decoradores y manejadores de contexto](clase05/decorators.ipynb)
-    - [Introducción a QA](clase05/.ipynb)
-    - [Análisis estático](02_QA/00_j_static_code_analysis.ipynb)
+    - [Introducción a QA](clase05/into_qa.ipynb)
+    - [Análisis estático](clase05/static_code_analysis.ipynb)
 
 - **Clase 6**:
     - [Debugging + Unit Testing](02_QA/01_testing.ipynb)
@@ -46,11 +46,6 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 
 
 
-```md
-Pendientes
-
-- [Profiling]()
-```
 
 
 
