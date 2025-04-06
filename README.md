@@ -39,10 +39,14 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 
 - **Clase 6**:
     - [Debugging + Unit Testing](02_QA/01_testing.ipynb)
-    - [Mock](02_QA/02_mock.ipynb)
     - [Code Coverage](02_QA/03_codecoverage.ipynb)
-    - [Property Based, Stateful & Fuzzy Testing](02_QA/04_PBT.ipynb)
-    - [Mutation Testing](02_QA/05_mutation.ipynb)
+    - [Property Based, Stateful](02_QA/04_PBT.ipynb)
+
+
+- **Clase 7**:
+    - [Mutation Testing]()
+    - [Fuzz Testing]()
+    - [Genetic Testing]()
 
 
 
