@@ -12,27 +12,47 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 
 ## Clases 🏫
 
-### Introducción
 
 - **Clase 1**:
     - [Sobre el cursado de la materia](clase01/intro.ipynb)
     - [Historia y algunos detalles](clase01/01_history.ipynb)
-    - [Software y el final del universo](clase01/02_entropy.ipynb)
-
-### Objetos y otros paradigmas
+    - :student: [Software y el final del universo](clase01/02_entropy.ipynb)
 
 - **Clase 2**:
     - [Paradigma orientado a objetos](clase02/oop.ipynb)
-    - [Errores](clase02/exceptions.ipynb)
+    - [Manejo de excepciones](clase02/exceptions.ipynb)
 
 - **Clase 3**:
     - [Modelo de objetos de Python + Composición de objetos](clase03/omodel.ipynb)
-    - [Alumnos] [Libro: "The Design of Design"](students/design_of_design/design_of_design.ipynb)
+    - :student: [Libro: "The Design of Design"](students/design_of_design/design_of_design.ipynb)
 
 - **Clase 4**:
-    - [Metaprogramación](clase04/meta.ipynb)
+    - [Clases abstractas + Meta programación](clase04/meta.ipynb)
     - :student: [Smalltalk](students/smalltalk/smalltalk.ipynb)
     - :student: [Diseño e implementación de `Sh`](students/sh_design/sh.ipynb)
+
+- **Clase 5**:
+    - [Structural Pattern Matching](clase05/structural_pattern_matching.ipynb)
+    - [Decoradores y manejadores de contexto](clase05/decorators.ipynb)
+    - [Introducción a QA](clase05/.ipynb)
+    - [Análisis estático](02_QA/00_j_static_code_analysis.ipynb)
+
+- **Clase 6**:
+    - [Debugging + Unit Testing](02_QA/01_testing.ipynb)
+    - [Mock](02_QA/02_mock.ipynb)
+    - [Code Coverage](02_QA/03_codecoverage.ipynb)
+    - [Property Based, Stateful & Fuzzy Testing](02_QA/04_PBT.ipynb)
+    - [Mutation Testing](02_QA/05_mutation.ipynb)
+
+
+
+```md
+Pendientes
+
+- [Profiling]()
+```
+
+
 
 
 ## Run the slides
