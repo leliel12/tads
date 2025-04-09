@@ -1,0 +1,24 @@
+********************************************************
+* Wfuzz 3.1.0 - The Web Fuzzer                         *
+********************************************************
+
+Target: http://testphp.vulnweb.com/FUZZ
+Total requests: 4746
+
+=====================================================================
+ID           Response   Lines    Word       Chars       Payload                                                                                               
+=====================================================================
+
+000000224:   200        0 L      0 W        1 Ch        "CVS/Root"                                                                                            
+000000222:   200        0 L      0 W        1 Ch        "CVS/Entries"                                                                                         
+000000223:   200        1 L      1 W        8 Ch        "CVS/Repository"                                                                                      
+000001045:   403        9 L      28 W       276 Ch      "cgi-bin"                                                                                             
+000001046:   403        9 L      28 W       276 Ch      "cgi-bin/"                                                                                            
+000001331:   200        4 L      12 W       224 Ch      "crossdomain.xml"                                                                                     
+000001772:   200        3 L      17 W       882 Ch      "favicon.ico"                                                                                         
+000002210:   200        109 L    388 W      4958 Ch     "index.php"                                                                                           
+
+Total time: 0
+Processed Requests: 4746
+Filtered Requests: 4738
+Requests/sec.: 0

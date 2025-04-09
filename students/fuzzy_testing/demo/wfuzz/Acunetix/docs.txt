@@ -1,0 +1,36 @@
+********************************************************
+* Wfuzz 3.1.0 - The Web Fuzzer                         *
+********************************************************
+
+Target: http://testphp.vulnweb.com/FUZZ
+Total requests: 37050
+
+=====================================================================
+ID           Response   Lines    Word       Chars       Payload                                                                                               
+=====================================================================
+
+000000001:   200        109 L    388 W      4958 Ch     "index.php"                                                                                           
+000000002:   200        103 L    364 W      4732 Ch     "search.php"                                                                                          
+000000004:   200        119 L    432 W      5523 Ch     "login.php"                                                                                           
+000000064:   200        108 L    384 W      4903 Ch     "cart.php"                                                                                            
+000000110:   200        3 L      17 W       882 Ch      "favicon.ico"                                                                                         
+000000162:   200        111 L    420 W      5265 Ch     "404.php"                                                                                             
+000000156:   200        106 L    377 W      4830 Ch     "logout.php"                                                                                          
+000000152:   200        110 L    377 W      5056 Ch     "product.php"                                                                                         
+000000171:   200        323 L    659 W      5482 Ch     "style.css"                                                                                           
+000000358:   200        121 L    446 W      6033 Ch     "signup.php"                                                                                          
+000000379:   200        109 L    388 W      4958 Ch     "."                                                                                                   
+000000453:   200        4 L      12 W       224 Ch      "crossdomain.xml"                                                                                     
+000000439:   200        114 L    463 W      5524 Ch     "disclaimer.php"                                                                                      
+000000552:   200        116 L    503 W      6115 Ch     "categories.php"                                                                                      
+000000742:   200        112 L    400 W      5390 Ch     "guestbook.php"                                                                                       
+000002000:   200        0 L      0 W        0 Ch        "showimage.php"                                                                                       
+000007438:   200        104 L    386 W      5328 Ch     "artists.php"                                                                                         
+000013565:   200        0 L      1 W        43 Ch       "dot.gif"                                                                                             
+000014273:   200        90 L     260 W      3265 Ch     "index.bak"                                                                                           
+000014283:   200        1 L      84 W       2442 Ch     "index.zip"                                                                                           
+
+Total time: 0
+Processed Requests: 37050
+Filtered Requests: 37030
+Requests/sec.: 0
