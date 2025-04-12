@@ -9,7 +9,7 @@ jupyterlab_rise==0.43.1
 pipdeptree==2.25.0
 Pympler==1.1
 rise==5.7.1
-scipy==1.15.2
+scipy==1.13.1
 seaborn==0.13.2
 sh==2.2.1
 tinycss2==1.4.0
