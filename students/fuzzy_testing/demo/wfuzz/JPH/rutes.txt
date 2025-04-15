@@ -1,0 +1,29 @@
+********************************************************
+* Wfuzz 3.1.0 - The Web Fuzzer                         *
+********************************************************
+
+Target: https://jsonplaceholder.typicode.com/FUZZ
+Total requests: 4746
+
+=====================================================================
+ID           Response   Lines    Word       Chars       Payload                                                                                                                                         
+=====================================================================
+
+000000065:   200        0 L      1 W        39 Ch       ".well-known/http-opportunistic"                                                                                                                
+000000235:   200        41043    111975 W   1378183 C   "DB"                                                                                                                                            
+                        L                   h                                                                                                                                                           
+000000613:   200        501 L    1283 W     9333 Ch     "albums"                                                                                                                                        
+000001179:   200        3501 L   18585 W    157745 Ch   "comments"                                                                                                                                      
+000001388:   200        41043    111975 W   1378183 C   "db"                                                                                                                                            
+                        L                   h                                                                                                                                                           
+000001772:   200        0 L      2 W        318 Ch      "favicon.ico"                                                                                                                                   
+000002209:   200        296 L    674 W      7955 Ch     "index.html"                                                                                                                                    
+000003098:   200        35001    85069 W    1071472 C   "photos"                                                                                                                                        
+                        L                   h                                                                                                                                                           
+000003235:   200        601 L    3500 W     27520 Ch    "posts"                                                                                                                                         
+000004367:   200        231 L    502 W      5645 Ch     "users"                                                                                                                                         
+
+Total time: 0
+Processed Requests: 4746
+Filtered Requests: 4736
+Requests/sec.: 0

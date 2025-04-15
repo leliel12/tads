@@ -1,0 +1,40 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.5, pluggy-1.5.0 -- /home/molina/.virtualenvs/tads/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/home/molina/FAMAF/5to-Famaf/TADS/hypothesis/.hypothesis/examples'))
+rootdir: /home/molina/FAMAF/5to-Famaf/TADS/hypothesis
+plugins: hypothesis-6.130.10
+collecting ... collected 6 items
+
+test_publico.py::test_public_post_api PASSED                             [ 16%]
+test_publico.py::test_posts_by_user PASSED                               [ 33%]
+test_publico.py::test_post_has_comments PASSED                           [ 50%]
+test_publico.py::test_user_schema PASSED                                 [ 66%]
+test_publico.py::test_user_posts_have_comments PASSED                    [ 83%]
+test_publico.py::test_invalid_post_id FAILED                             [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_invalid_post_id _____________________________
+
+    @given(bad_id=text(min_size=1, max_size=10).filter(lambda s: not s.isdigit()))
+>   def test_invalid_post_id(bad_id):
+
+test_publico.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+bad_id = '#ð𫋵\U000e41f4\x9e\x1fl<\U000ef034?'
+
+    @given(bad_id=text(min_size=1, max_size=10).filter(lambda s: not s.isdigit()))
+    def test_invalid_post_id(bad_id):
+        response = requests.get(f"{BASE_URL}/posts/{bad_id}")
+>       assert response.status_code in (404, 400)
+E       assert 200 in (404, 400)
+E        +  where 200 = <Response [200]>.status_code
+E       Falsifying example: test_invalid_post_id(
+E           bad_id='#ð𫋵\U000e41f4\x9e\x1fl<\U000ef034?',
+E       )
+
+test_publico.py:87: AssertionError
+=========================== short test summary info ============================
+FAILED test_publico.py::test_invalid_post_id - assert 200 in (404, 400)
+========================= 1 failed, 5 passed in 53.81s =========================
