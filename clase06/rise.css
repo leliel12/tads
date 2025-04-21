@@ -90,3 +90,8 @@
     background-color: var(--jupyter-in-cell-bg) !important;
     max-height: none !important;
 }
+
+section.present {
+    overflow-y: scroll !important;
+}
+
