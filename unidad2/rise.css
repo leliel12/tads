@@ -1,0 +1,97 @@
+:root {
+    --primary: #7b8e2d;
+    /* Used for subtitles, captions and code */
+    --secondary: #5e705f;
+    /* Links  */
+    --links: #7b8e2d;
+    /* Background color of jupyter input cell */
+    --jupyter-in-cell-bg: #e3ffd28c;
+}
+
+.reveal-full-page .rise-enabled section img {
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-height: 95vh; /* 90% de la altura visible */
+    width: auto; /* Permite que el ancho se ajuste proporcionalmente */
+    object-fit: contain; /* Asegura que toda la imagen sea visible */
+}
+
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput p,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput li,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput ol,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput ul {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput h2 {
+    font-size: 54px
+}
+
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput h1,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput h1 * {
+    margin-left: auto;
+    margin-right: auto;
+
+    color: var(--primary) !important
+}
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput h1 {
+    font-size: 60px;
+}
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput h3 {
+    margin-top: 0em;
+}
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput h1,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput h3,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput em,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput strong,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput li::marker,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput span.MathJax,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput code {
+    color: var(--primary) !important
+}
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput .decisionmatrix-dim {
+    color: black !important;
+}
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput h2,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput h4 {
+    color: var(--secondary) !important
+}
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput a {
+    color: var(--links) !important;
+    text-decoration: none !important;
+}
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput a::after {
+    content: "⬏";
+    color: var(--primary) !important
+}
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput table.clean,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput table.clean tr,
+.reveal-full-page .rise-enabled .jp-MarkdownOutput table.clean td {
+    background-color: white;
+    border: none;
+}
+
+.reveal-full-page .rise-enabled .jp-MarkdownOutput code {
+    overflow-y: scroll;
+    background-color: var(--jupyter-in-cell-bg) !important;
+    max-height: none !important;
+}
+
+section.present {
+    overflow-y: scroll !important;
+}
+
