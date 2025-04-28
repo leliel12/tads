@@ -11,42 +11,40 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 ----
 
 ## Clases 🏫
+# Contenido del curso por unidades
+
+### Unidad 1: Fundamentos y Entropía
+- [Introducción al curso](unidad1_funcamentos_y_entropia/00_intro.ipynb)
+- [Historia y fundamentos](unidad1_funcamentos_y_entropia/01_hist.ipynb)
+- [Software y el final del universo (Entropía)](unidad1_funcamentos_y_entropia/02_entropy.ipynb)
+- :student: [Libro: "The Design of Design"](students/design_of_design/design_of_design.ipynb)
+- :student: [Smalltalk](students/smalltalk/smalltalk.ipynb)
+- :student: [Diseño e implementación de `Sh`](students/sh_design/sh.ipynb)
 
 
-- **Clase 1**:
-    - [Sobre el cursado de la materia](clase01/intro.ipynb)
-    - [Historia y algunos detalles](clase01/01_history.ipynb)
-    - :student: [Software y el final del universo](clase01/02_entropy.ipynb)
+#### Unidad 1.5: Python
+- [Paradigma orientado a objetos](unidad1.5_python/oop.ipynb)
+- [Manejo de excepciones](unidad1.5_python/exceptions.ipynb)
+- [Modelo de objetos de Python](unidad1.5_python/omodel.ipynb)
+- [Meta programación](unidad1.5_python/meta.ipynb)
+- [Structural Pattern Matching](unidad1.5_python/pattern_matching.ipynb)
+- [Decoradores](unidad1.5_python/decoradores.ipynb)
 
-- **Clase 2**:
-    - [Paradigma orientado a objetos](clase02/oop.ipynb)
-    - [Manejo de excepciones](clase02/exceptions.ipynb)
+### Unidad 2: Calidad
+- [Introducción a QA](unidad2_calidad/intro_qa.ipynb)
+- [Análisis estático de código](unidad2_calidad/static_code_analysis.ipynb)
+- [Unit Testing y Code Coverage](unidad2_calidad/utesting_ccoverage.ipynb)
+- [Property Based Testing](unidad2_calidad/PBT.ipynb)
+- [Mutation Testing](unidad2_calidad/mutation.ipynb)
+- [Profiling](unidad2_calidad/06_profiling.ipynb)
+- :student: [Fuzz Testing](students/fuzzy_testing/fuzzy.ipynb)
+- :student: [Genetic Testing](students/genetic_testing/genetic.ipynb)
+- :student: [Behavioral Testing](students/behavioral_testing/btesting.ipynb)
 
-- **Clase 3**:
-    - [Modelo de objetos de Python + Composición de objetos](clase03/omodel.ipynb)
-    - :student: [Libro: "The Design of Design"](students/design_of_design/design_of_design.ipynb)
-
-- **Clase 4**:
-    - [Clases abstractas + Meta programación](clase04/meta.ipynb)
-    - :student: [Smalltalk](students/smalltalk/smalltalk.ipynb)
-    - :student: [Diseño e implementación de `Sh`](students/sh_design/sh.ipynb)
-
-- **Clase 5**:
-    - [Structural Pattern Matching](clase05/structural_pattern_matching.ipynb)
-    - [Decoradores y manejadores de contexto](clase05/decorators.ipynb)
-    - [Introducción a QA](clase05/into_qa.ipynb)
-    - [Análisis estático](clase05/static_code_analysis.ipynb)
-
-- **Clase 6**:
-    - [Debugging + Unit Testing + Code Coverage](clase06/utesting_ccoverage.ipynb)
-    - [Property Based, Stateful](clase06/PBT.ipynb)
-    - [Mutation Testing](clase06/mutation.ipynb)
-
-
-- **Clase 7**:
-
-    - [Fuzz Testing]()
-    - [Genetic Testing]()
+### Unidad 3: Diseño
+- [Diseño de software](unidad3_diseño/design.ipynb)
+- [Patrones de diseño](unidad3_diseño/patrones.ipynb)
+- :student: [Code Smells](students/smells/smells.ipynb)
 
 
 
