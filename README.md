@@ -14,9 +14,10 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 # Contenido del curso por unidades
 
 ### Unidad 1: Fundamentos y Entropía
-- [Introducción al curso](unidad1_funcamentos_y_entropia/00_intro.ipynb)
-- [Historia y fundamentos](unidad1_funcamentos_y_entropia/01_hist.ipynb)
-- [Software y el final del universo (Entropía)](unidad1_funcamentos_y_entropia/02_entropy.ipynb)
+- [Introducción al curso](unidad1_fundamentos/00_intro.ipynb)
+- [Historia y fundamentos](unidad1_fundamentos/01_hist.ipynb)
+- [Software y el final del universo (Entropía)](unidad1_fundamentos/02_entropy.ipynb)
+- [(Caso de estudio) From FATS to Feets](unidad1_fundamentos/from_fats_to_feets.ipynb)
 - :student: [Libro: "The Design of Design"](students/design_of_design/design_of_design.ipynb)
 - :student: [Smalltalk](students/smalltalk/smalltalk.ipynb)
 - :student: [Diseño e implementación de `Sh`](students/sh_design/sh.ipynb)
@@ -47,7 +48,11 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 - :student: [Code Smells](students/smells/smells.ipynb)
 
 
+### Unidad 4: Optimización y gran volumen de datos
 
+- [Optimización](unidad4_optimizacion/optimizacion.ipynb)
+- [C y Python](unidad4_optimizacion/C_integration.ipynb)
+- [Concurrencia](unidad4_optimizacion/concurrencia.ipynb)
 
 
 
