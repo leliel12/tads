@@ -45,6 +45,7 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 ### Unidad 3: Diseño
 - [Diseño de software](unidad3_diseño/design.ipynb)
 - [Patrones de diseño](unidad3_diseño/patrones.ipynb)
+- [Heuristicas de diseño](unidad3_diseño/heuristics.ipynb)
 - :student: [Code Smells](students/smells/smells.ipynb)
 
 
@@ -53,6 +54,8 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 - [Optimización](unidad4_optimizacion/optimizacion.ipynb)
 - [C y Python](unidad4_optimizacion/C_integration.ipynb)
 - [Concurrencia](unidad4_optimizacion/concurrencia.ipynb)
+- :student: [Cómputo distribuido (Ray, Dask & Spark)](students/distributed/distributed.ipynb)
+- :student: [Netcode: Delay vs Rollback](students/netcode/netcode.ipynb)
 
 
 
