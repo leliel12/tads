@@ -31,6 +31,7 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 - [Structural Pattern Matching](unidad1.5_python/pattern_matching.ipynb)
 - [Decoradores](unidad1.5_python/decoradores.ipynb)
 
+
 ### Unidad 2: Calidad
 - [Introducción a QA](unidad2_calidad/intro_qa.ipynb)
 - [Análisis estático de código](unidad2_calidad/static_code_analysis.ipynb)
@@ -47,6 +48,9 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 - [Patrones de diseño](unidad3_diseño/patrones.ipynb)
 - [Heuristicas de diseño](unidad3_diseño/heuristics.ipynb)
 - [Patrones Arquitectonicos](unidad3_diseño/patrones_arquitectonicos.ipynb)
+- [Arquitectura Limpia y Principios de Código Limpio](unidad3_diseño/clean_architecture.ipynb)
+- [CUPID and GRASP](unidad3_diseño/cupid_grasp.ipynb)
+- [Resumen de diseño](unidad3_diseño/cierre.ipynb)
 - :student: [Code Smells](students/smells/smells.ipynb)
 
 
@@ -57,6 +61,8 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 - [Concurrencia](unidad4_optimizacion/concurrencia.ipynb)
 - :student: [Cómputo distribuido (Ray, Dask & Spark)](students/distributed/distributed.ipynb)
 - :student: [Netcode: Delay vs Rollback](students/netcode/netcode.ipynb)
+- :student: [Modin como reemplazo de Pandas](students/modin/modin.ipynb)
+- :student: [DAGS (Airflow)](students/dags/dags.ipynb)
 
 
 
