@@ -46,6 +46,7 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 - [Diseño de software](unidad3_diseño/design.ipynb)
 - [Patrones de diseño](unidad3_diseño/patrones.ipynb)
 - [Heuristicas de diseño](unidad3_diseño/heuristics.ipynb)
+- [Patrones Arquitectonicos](unidad3_diseño/patrones_arquitectonicos.ipynb)
 - :student: [Code Smells](students/smells/smells.ipynb)
 
 

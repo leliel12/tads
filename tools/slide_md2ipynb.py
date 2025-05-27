@@ -37,25 +37,25 @@ RX_CODE = r"```(\w*)\n([\s\S]*?)```"
 # =============================================================================
 
 
-def mdsplit(content, delimiter="---"):
+def mdsplit(content):
     """
-    Splits markdown content by a specific delimiter without including the delimiter.
+    Splits markdown content by specific delimiters without including the delimiter.
 
     Args:
         content (str): Markdown content.
-        delimiter (str): Delimiter to split the content (default: "---").
 
     Returns:
         list: List of content sections without delimiters.
     """
-    # Create the regex pattern for the delimiter
-    rx_slide = f"^{delimiter}\\s*$"
+    # Create regex pattern that matches both "---" and "----"
+    rx_slide = r"^(-{3,4})\s*$"
 
-    # Split the content using re.split but without capturing groups
+    # Split the content using re.split
     sections = re.split(rx_slide, content, flags=re.MULTILINE)
 
-    # Filter out any empty sections and strip them
-    processed_sections = [section.strip() for section in sections if section.strip()]
+    # Filter out any empty sections and the captured delimiter groups
+    processed_sections = [section.strip() for section in sections
+                         if section and section.strip() and not re.match(r'^-+$', section.strip())]
 
     return processed_sections
 
