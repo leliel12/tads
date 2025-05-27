@@ -59,6 +59,7 @@ TADS se ofrece como [optativa](https://digesto.unc.edu.ar/handle/123456789/55951
 - [Optimización](unidad4_optimizacion/optimizacion.ipynb)
 - [C y Python](unidad4_optimizacion/C_integration.ipynb)
 - [Concurrencia](unidad4_optimizacion/concurrencia.ipynb)
+- [Compiladores just-in-time](unidad4_optimizacion/03_jit.ipynb)
 - :student: [Cómputo distribuido (Ray, Dask & Spark)](students/distributed/distributed.ipynb)
 - :student: [Netcode: Delay vs Rollback](students/netcode/netcode.ipynb)
 - :student: [Modin como reemplazo de Pandas](students/modin/modin.ipynb)
