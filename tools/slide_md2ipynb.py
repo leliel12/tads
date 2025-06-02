@@ -151,7 +151,7 @@ def get_parser():
 
     # Add argument for the output file path
     parser.add_argument(
-        "--output",
+        "-o", "--output",
         type=argparse.FileType("w"),
         default=sys.stdout,
         help="Path to save the output notebook file (default: stdout)",
